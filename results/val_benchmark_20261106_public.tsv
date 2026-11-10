@@ -1,0 +1,10 @@
+method	family	input	pooled	ps_med_raw	ps_med_n4
+TaxoFunc-P2FM-ens-v2	model	raw taxa + P2 + AE + flow matching	0.695167	0.319705	0.318784
+Ridge (raw taxa)	traditional ML (end-to-end)	raw taxa only	0.474034	0.232038	0.223607
+RandomForest 300	traditional ML (end-to-end)	raw taxa only	0.509974	0.202359	0.204718
+RandomForest 100	traditional ML (end-to-end)	raw taxa only	0.506563	0.202889	0.205777
+MLP 256 (raw taxa)	traditional ML (end-to-end)	raw taxa only	0.346155	0.109601	0.107398
+MLP 256 (z-scored taxa)	traditional ML (end-to-end)	raw taxa only	0.026865	-0.000365	-0.001426
+RandomForest shuffled-label control	traditional ML (end-to-end)	raw taxa only	0.040488	0.027461	0.025710
+PICRUSt2 prior (B4)	validation benchmark baseline	PICRUSt2 prior	0.429221	0.199723	0.185312
+MGFunc (B5)	validation benchmark baseline	MGFunc	0.409421	0.184540	0.177185

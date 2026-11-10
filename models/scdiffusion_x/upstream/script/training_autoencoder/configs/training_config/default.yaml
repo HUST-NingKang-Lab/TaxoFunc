@@ -1,0 +1,3 @@
+batch_size: 256
+chekpoint_path: /stor/lep/workspace/scDiffusion-X/script/training_autoencoder/outputs/checkpoints
+use_early_stopping: False
